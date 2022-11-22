@@ -9,6 +9,10 @@ function initMap(){
 	map: map,
   });
   
+  var infowindow = new google.maps.InfoWindow({
+    content: "This is info"
+  });
+  
   infowindow.open(map, marker);
 }
 
