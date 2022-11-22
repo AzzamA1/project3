@@ -143,3 +143,11 @@ body ul li a{
 #onpage{
   text-decoration: underline overline; 
 }
+
+#map{
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  
+}
