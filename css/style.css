@@ -1,0 +1,145 @@
+body{
+  background-color: #E1EFE2;
+}
+
+body ul li a{
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-size: 15pt;
+}
+ 
+.index{
+  text-align: left;
+}
+
+.index h1{
+  position: static;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.index h2{
+  background-color: white;
+  padding: 10px;
+  font-style: italic;
+}
+
+.index img{
+  border: 5px solid black;
+  float: none;
+}
+
+.index ul
+{
+  list-style-type: square;
+}
+
+.travel{
+  text-align: center;
+}
+
+.travel img{
+  border-radius: 50%;
+  position: static;
+}
+
+.travel h1{
+  position: static;
+  text-align: center;
+  font-size: 20pt;
+  text-decoration: underline overline;
+}
+
+.travel h2{
+  background-color: white;
+  padding: 10px;
+  font-style: italic;
+  position: initial;
+}
+
+.travel p{
+  font-family: 'roboto-bolditalic', Sans-Serif;
+  font-size: 20px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.travel section{
+  outline: 4px dotted white 
+}
+
+.sneakers
+{
+  text-align: left;
+}
+
+.sneakers h1{
+  text-align: center;
+  font-size: 2em;
+  font-style: oblique;
+  position: static;
+}
+
+.sneakers h2{
+  background-color: white;
+  padding: 0.4em;
+  position: initial;
+
+}
+
+.sneakers section{
+  border: 0.5em dashed black;
+}
+
+.sneakers img{
+  border-radius: 40%;
+  position: static;
+}
+
+.sneakers p{
+  font-family: system-ui;
+  padding: 0.5em;
+  position: relative;
+}
+
+#navbar-container{
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: #AFE1AF;
+  overflow: hidden; 
+}
+
+#navbar-container ul{
+  left: 50%;
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  list-style-type: none; 
+  float: left;
+}
+
+#navbar-container ul li{ 
+  display: block; 
+  float: left;
+  right: 50%;
+  position: relative;
+}
+
+#navbar-container ul li a{
+  text-decoration: none; 
+  display: block; 
+  color: white; 
+  padding: 10px 20px;
+}
+
+#navbar-container ul li a:hover{
+  background-color: black; 
+}
+
+#onpage{
+  text-decoration: underline overline; 
+}
