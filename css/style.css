@@ -159,3 +159,11 @@ body ul li a{
   top: 15%;
   border: solid blue 5.5px;
 }
+
+@media (min-width: 600px){
+  
+}
+
+@media (min-width: 600px{
+	
+}
