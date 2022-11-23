@@ -10,7 +10,7 @@ function initMap(){
   });
   
   var infowindow = new google.maps.InfoWindow({
-    content: "This is the Cloud Gate"
+    content: "This is the Cloud Gate in Millenium Park"
   });
   
   infowindow.open(map, marker);
