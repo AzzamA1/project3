@@ -14,6 +14,23 @@ function initMap(){
   });
   
   infowindow.open(map, marker);
+  
+  var coords = [
+    { lat: 41.8844, lng: -87.6244}, 
+	{ lat: 41.8809, lng: -87.6243}, 
+	{ lat:  41.8809, lng: -87.6175}, 
+	{ lat: 41.8844, lng: -87.6143},
+	{ lat: 41.8844, lng: -87.6244},
+  ];
+  
+  var park = new google.maps.Polygon({
+    paths: coords,
+	strokeColor: "#0000FF",
+	strokeWeight: 3,
+	fillColor: "#ADD8E6",
+	fillOpacity: 0.25,
+	map: map
+  });
 }
 
 window.initMap = initMap;
