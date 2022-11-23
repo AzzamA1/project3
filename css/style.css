@@ -160,10 +160,128 @@ body ul li a{
   border: solid blue 5.5px;
 }
 
-@media (min-width: 600px){
+@media screen and (min-width: 800px){
+  #singapore p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: oblique;
+    position: static;
+    padding: 1em;
+  }
   
+  #dubai p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: oblique;
+    position: static;
+    padding: 1em;
+  }
+  
+  #turkey p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: oblique;
+    position: static;
+    padding: 1em;
+  }
+  
+  #egypt p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: oblique;
+    position: static;
+    padding: 1em;
+  }
+  
+  #singapore h2{
+	font-size: 2em;
+    background-color: white;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  #dubai h2{
+	font-size: 2em;
+    background-color: white;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  #turkey h2{
+	font-size: 2em;
+    background-color: white;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  #egypt h2{
+	font-size: 2em;
+	background-color: white;
+    padding: 10px;
+    font-style: italic; 
+  }
 }
 
-@media (min-width: 600px{
+@media screen and (min-width: 2000px){
+	
+	#singapore p{
+    text-align: center;
+    font-size: 4em;
+    font-style: oblique;
+    position: static;
+    padding: 2em;
+  }
+  
+  #dubai p{
+    text-align: center;
+    font-size: 4em;
+    font-style: oblique;
+    position: static;
+    padding: 2em;
+  }
+  
+  #turkey p{
+    text-align: center;
+    font-size: 4em;
+    font-style: oblique;
+    position: static;
+    padding: 2em;
+  }
+  
+  #egypt p{
+    text-align: center;
+    font-size: 4em;
+    font-style: oblique;
+    position: static;
+    padding: 2em;
+  }
+  
+  #singapore h2{
+    background-color: white;
+    padding: 20px;
+	font-size: 5em;
+    font-style: italic;
+  }
+  
+  #dubai h2{
+	font-size: 5em;
+    background-color: white;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  #turkey h2{
+	font-size: 5em;
+    background-color: white;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  #egypt h2{
+	font-size: 5em;
+	background-color: white;
+    padding: 20px;
+    font-style: italic; 
+  }
 	
 }
